@@ -1,60 +1,37 @@
 (function(){
 
 console.log('JS IS LINKED');
-// document.getElementById("tshirts").onclick = function() {displayTee()};
 
-displayAll = () => {
-  var arrOfElements = document.querySelectorAll('.tee, .hoodie, .hat');
-  var arrLen = arrOfElements.length;
+// displayTee = () => {
+//   var tees = document.querySelectorAll('.tee');
+//   var teesLen = tees.length;
+//   for (var i = 0; i < teesLen; i++){
+//       tees[i].style.display = 'block';
+//   }
 
-  for (var i = 0; i < arrLen; i++){
-      arrOfElements[i].style.display = 'block';
-  }
-}
+//   var arrOfElements = document.querySelectorAll(".hoodie, .hat");
+//   var arrLen = arrOfElements.length;
 
-displayTee = () => {
-  var tees = document.querySelectorAll('.tee');
-  var teesLen = tees.length;
-  for (var i = 0; i < teesLen; i++){
-      tees[i].style.display = 'block';
-  }
+//   for (var i = 0; i < arrLen; i++){
+//       arrOfElements[i].style.display = 'none';
+//   }
+// }
 
-  var arrOfElements = document.querySelectorAll(".hoodie, .hat");
-  var arrLen = arrOfElements.length;
+// --------NOT WORKING--------
 
-  for (var i = 0; i < arrLen; i++){
-      arrOfElements[i].style.display = 'none';
-  }
-}
+// displaySoldOut = () => {
+//   console.log('sold out runs');
+//   var arrOfElements = document.querySelectorAll(".soldout");
+//   var arrLen = arrOfElements.length;
+//   var pElem = document.createElement('p');
+//   pElem.innerHTML = 'SOLD OUT';
 
-displayHoodie = () => {
-  var hoodies = document.querySelectorAll('.hoodie');
-  var hoodieLen = hoodies.length;
-  for (var i = 0; i < hoodieLen; i++){
-      hoodies[i].style.display = 'block';
-  }
+//   for (var i = 0; i < arrLen; i++){
+//     console.log('appended p');
+//     arrOfElements[i].appendChild(pElem);
+//   }
+// }
 
-  var arrOfElements=document.querySelectorAll(".tee, .hat");
-  var arrLen = arrOfElements.length;
 
-  for (var i = 0; i < arrLen; i++){
-      arrOfElements[i].style.display = 'none';
-  }
-}
-
-displayHat = () => {
-  var hats = document.querySelectorAll('.hat');
-  var hatLen = hats.length;
-  for (var i = 0; i < hatLen; i++){
-      hats[i].style.display = 'block';
-  }
-
-  var arrOfElements = document.querySelectorAll(".tee, .hoodie");
-  var arrLen = arrOfElements.length;
-
-  for (var i = 0; i < arrLen; i++){
-      arrOfElements[i].style.display='none';
-  }
-}
-
+// displaySoldOut();
 })();

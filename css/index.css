@@ -29,46 +29,22 @@ header img {
   height: 150px;
 }
 
-nav {
-  width: 15%;
-  float: left;
-  text-align: right;
-  /*line-height: 1.5em;*/
-  /*border: 1px solid pink;*/
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  margin: 10px 0;
-}
-
-nav ul li:hover {
-  cursor: pointer;
-}
-
 section {
-  width: 85%;
-  float: left;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 1rem;
+  justify-content: space-around;
+
   height: 65vh;
-  min-width: 85%;
-  flex-wrap: wrap;
+  max-height: 700px;
   overflow: scroll;
   /*border: 1px solid blue;*/
-  /*justify-content: center;*/
-  /*align-content: space-around;*/
 }
 
 .item {
   opacity: 1;
   height: 175px;
-  width: 175px;
-  padding: 5px;
-  margin: 15px 30px;
-  text-align: center;
+  width: 200px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
