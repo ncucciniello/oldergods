@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*font-family: 'Open Sans';*/
-  /*-webkit-font-smoothing: antialiased;*/
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
   margin: 0 auto;
   width: 70vw;
-  max-width: 900px;
+  max-width: 800px;
   background-color: #FFFFFF;
 }
 
@@ -27,6 +27,65 @@ header {
 
 header img {
   height: 150px;
+}
+
+.item {
+  width: 80%;
+  float: left;
+  text-align: center;
+  /*border: 1px solid blue;*/
+}
+
+.item img {
+  height: 350px;
+}
+
+.info {
+  width: 20%;
+  display: inline-block;
+  padding-top: 5px;
+  /*border: 1px solid orange;*/
+}
+
+.info p {
+  padding-left: 5px;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.color {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: .75em;
+  margin-bottom: 5px;
+}
+
+.desc {
+  font-size: .85em;
+  margin-bottom: 15px;
+}
+
+.sizes select {
+  width: 100%;
+  height: 30px;
+  font-size: .9em;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  font-size: .9em;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .5;
 }
 
 

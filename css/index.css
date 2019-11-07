@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*font-family: 'Open Sans';*/
-  /*-webkit-font-smoothing: antialiased;*/
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
