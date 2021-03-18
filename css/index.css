@@ -6,87 +6,21 @@
   -webkit-font-smoothing: antialiased;
 }
 
-html {
-  margin: 0 auto;
-  width: 70vw;
-  max-width: 800px;
-  background-color: #FFFFFF;
-}
-
 body {
-  width: 100%;
-  /*border: 1px solid black;*/
-  /*background-color: #422FB1;*/
-}
-
-header {
-  padding: 10px 0;
-  text-align: center;
-  /*border: 1px solid green;*/
-}
-
-header img {
-  height: 150px;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #000000;
 }
 
 .soon {
-  padding: 100px 0;
   text-align: center;
-  font-size: 4em;
 }
 
-section {
-  display: grid;
-  grid-gap: 1rem;
-  justify-content: space-around;
-  grid-template-columns: repeat(auto-fill, 200px);
-
-  height: 65vh;
-  max-height: 700px;
-  overflow: scroll;
-  /*border: 1px solid blue;*/
-}
-
-.item {
-  opacity: 1;
-  height: 175px;
-  width: 200px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-  -webkit-transition: opacity .25s ease;
-  /*border: 1px solid red;*/
-}
-
-.item:hover {
-  opacity: 0.5;
-  cursor: pointer;
-  transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-  -webkit-transition: opacity .25s ease;
-}
-
-.jason2 {
-  background-image: url('../assets/jason2_front.png');
-}
-
-.bell1 {
-  background-image: url('../assets/bell1_front.png');
-}
-
-.bell2 {
-  background-image: url('../assets/bell2_front.png');
-}
-
-.bell3 {
-  background-image: url('../assets/bell_hat.png');
+#content {
+  height: 95vh;
 }
 
 footer {
-  clear: left;
-  padding-top: 25px;
+  color: white;
   text-align: center;
-  /*border: 1px solid green;*/
 }
