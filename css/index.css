@@ -9,6 +9,7 @@
 body {
   width: 100vw;
   margin: 0 auto;
+  overflow-x: hidden;
   background-color: #000000;
 }
 
@@ -18,9 +19,5 @@ body {
 
 #content {
   height: 95vh;
-}
-
-footer {
-  color: white;
-  text-align: center;
+  width: 100%;
 }
