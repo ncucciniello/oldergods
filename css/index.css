@@ -17,8 +17,14 @@ body {
   text-align: center;
 }
 
-#content {
-  height: 100vh;
+@media (max-width: 540px) {
+  #content {
+    width: 99vw;
+  }
 }
 
-/* width < 540px do mobile sizing */
+@media (min-width: 541px) {
+  #content {
+    height: 100vh;
+  }
+}
